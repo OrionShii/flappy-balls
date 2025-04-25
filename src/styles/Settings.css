@@ -1,0 +1,122 @@
+.settings-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+}
+
+.settings-panel {
+  background: linear-gradient(135deg, #2a2d3e 0%, #1a1c20 100%);
+  padding: 30px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 400px;
+  position: relative;
+  color: white;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.settings-panel h2 {
+  margin: 0 0 20px;
+  color: #ffd700;
+  text-align: center;
+  font-size: 24px;
+}
+
+.settings-section {
+  margin-bottom: 25px;
+}
+
+.settings-section h3 {
+  margin: 0 0 15px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.difficulty-options {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.difficulty-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 15px;
+  background: #3a3d4e;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.difficulty-btn.active {
+  background: #ffd700;
+  color: #1a1c20;
+  transform: scale(1.05);
+}
+
+.skin-options {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.skin-preview {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.skin-preview.active {
+  transform: scale(1.2);
+  border: 2px solid #ffd700;
+}
+
+.sound-toggle {
+  padding: 10px 20px;
+  font-size: 24px;
+  background: #3a3d4e;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+.sound-toggle.active {
+  background: #ffd700;
+  transform: scale(1.05);
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px;
+  transition: all 0.3s ease;
+}
+
+.close-btn:hover {
+  color: #ffd700;
+  transform: scale(1.1);
+}
+
+.settings-panel button:hover {
+  transform: scale(1.1);
+} 
