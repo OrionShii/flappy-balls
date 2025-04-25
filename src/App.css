@@ -1,12 +1,10 @@
 .App {
   text-align: center;
   min-height: 100vh;
-  background: #1a1f2c;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: system-ui, -apple-system, sans-serif;
-} 
+  background: linear-gradient(135deg, #1a1c20 0%, #282c34 100%);
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
 
 .App-logo {
   height: 40vmin;
@@ -28,7 +26,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-} 
+}
 
 .App-link {
   color: #61dafb;

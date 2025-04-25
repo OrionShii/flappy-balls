@@ -1,19 +1,17 @@
 # 🎮 Flappy Balls
 
-A modern and enhanced version of the classic Flappy Bird game, built with React. Guide your bouncing ball through pipes, unlock achievements, and compete for high scores!
+A modern take on the classic Flappy Bird game, built with React. Guide your bouncing ball through pipes and aim for the highest score!
 
 https://github.com/user-attachments/assets/8f52022a-b9cc-437c-919b-4bb312994646
 
 ## 🚀 Features
 
-- Multiple ball skins with unique visual effects
-- Three difficulty levels (Easy, Medium, Hard)
-- Achievement system with unlockable rewards
-- High score tracking with local storage
-- Sound effects and music with toggle option
+- Smooth, modern UI with gradient effects
+- Responsive controls (mouse click or spacebar)
+- High score tracking
 - Immersive visual effects and animations
-- Responsive controls (mouse/touch/keyboard)
 - Mobile-friendly design
+- Simple yet challenging gameplay
 
 ## 🎯 How to Play
 
@@ -21,43 +19,19 @@ https://github.com/user-attachments/assets/8f52022a-b9cc-437c-919b-4bb312994646
 2. Keep clicking or pressing spacebar to make the ball bounce
 3. Navigate through the pipes without touching them
 4. Each pipe passed = 1 point
-5. Unlock achievements as you improve
-6. Try to beat your high score!
-
-## 🎨 Customization Options
-
-### Ball Skins
-- Classic: Golden gradient ball
-- Neon: Pink and cyan glow effect       
-- Rainbow: Colorful gradient pattern
-- Metal: Sleek metallic finish
-
-### Difficulty Levels
-- Easy: Lower gravity, slower pipes, bigger gaps
-- Medium: Balanced default settings
-- Hard: Higher gravity, faster pipes, smaller gaps
-
-## 🏆 Achievements
-
-- First Flight: Score your first point
-- Getting Better: Score 10 points
-- Ball Master: Score 25 points
-- Legendary: Score 50 points
-- Survivor: Play 10 games
+5. Try to beat your high score!
 
 ## 🛠️ Technologies Used
 
-- React with Hooks and Context
-- Modern CSS3 (gradients, animations, backdrop-filter)
-- Local Storage for game persistence
-- JavaScript ES6+
-- Custom sound system
+- React
+- CSS3 (with modern features like gradients and backdrop-filter)
+- JavaScript (ES6+)
 
 ## 📦 Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/OrionShii/flappy-balls.git
+git clone https://github.com/OrionShii  /flappy-balls.git
 ```
 
 2. Navigate to the project directory:
@@ -77,28 +51,17 @@ npm start
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## 🎮 Controls
+## 🎨 Customization
 
-- Click/Tap - Make the ball jump
-- Spacebar - Make the ball jump
-- ESC - Close menus
-- Settings gear - Access game options
-- Trophy icon - View achievements
+You can easily customize the game by modifying the following constants in `src/components/Game.js`:
 
-## ⚙️ Game Settings
-
-You can customize various aspects of the game through the settings menu:
-- Difficulty level selection
-- Ball skin customization
-- Sound effects toggle
-
-## 🔊 Sound Effects
-
-The game includes various sound effects:
-- Jump sound
-- Point scoring
-- Collision detection
-- Achievement unlocks
+```javascript
+const GRAVITY = 1.5;        // Adjust ball falling speed
+const JUMP_FORCE = -10;     // Adjust jump height
+const PIPE_SPEED = 2;       // Adjust pipe movement speed
+const PIPE_GAP = 150;       // Adjust gap between pipes
+const PIPE_INTERVAL = 3000; // Adjust time between pipes
+```
 
 ## 🤝 Contributing
 
@@ -109,6 +72,26 @@ Contributions are welcome! Feel free to:
 3. Make your changes
 4. Submit a pull request
 
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🎮 Game Controls
+
+- Click/Tap - Make the ball jump
+- Spacebar - Make the ball jump
+- Any key during game over - Restart the game
+
+## 🏆 Scoring
+
+- +1 point for each pipe passed
+- High score is saved during the session
+- Try to beat your personal best!
+
+## 🐛 Known Issues
+
+- None reported yet! Feel free to open an issue if you find any.
+
 ## 📱 Browser Support
 
 - Chrome (recommended)
@@ -117,13 +100,17 @@ Contributions are welcome! Feel free to:
 - Edge
 - Mobile browsers
 
-## 📝 License
+## ✨ Future Enhancements
 
-This project is open source and available under the [MIT License](LICENSE).
+- [ ] Sound effects
+- [ ] Different ball skins
+- [ ] Local storage for high scores
+- [ ] Difficulty levels
+- [ ] Achievements system
 
 ## 👥 Credits
 
-Created with ❤️ by OrionShii
+Created with ❤️ by [Your Name]
 
 ---
 *Happy Gaming! 🎮*
