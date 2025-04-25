@@ -2,7 +2,10 @@
 
 A modern take on the classic Flappy Bird game, built with React. Guide your bouncing ball through pipes and aim for the highest score!
 
-https://github.com/user-attachments/assets/8f52022a-b9cc-437c-919b-4bb312994646
+
+https://github.com/user-attachments/assets/e28fe319-534e-4939-870e-17cfd0c6baa5
+
+
 
 ## 🚀 Features
 
@@ -99,14 +102,6 @@ This project is open source and available under the [MIT License](LICENSE).
 - Safari
 - Edge
 - Mobile browsers
-
-## ✨ Future Enhancements
-
-- [ ] Sound effects
-- [ ] Different ball skins
-- [ ] Local storage for high scores
-- [ ] Difficulty levels
-- [ ] Achievements system
 
 ## 👥 Credits
 
