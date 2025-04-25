@@ -31,7 +31,7 @@ https://github.com/user-attachments/assets/8f52022a-b9cc-437c-919b-4bb312994646
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/OrionShii  /flappy-balls.git
+git clone https://github.com/OrionShii/flappy-balls.git
 ```
 
 2. Navigate to the project directory:
@@ -110,7 +110,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👥 Credits
 
-Created with ❤️ by [Your Name]
+Created with ❤️ by [OrionShii]
 
 ---
 *Happy Gaming! 🎮*
