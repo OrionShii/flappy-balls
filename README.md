@@ -2,7 +2,7 @@
 
 A modern take on the classic Flappy Bird game, built with React. Guide your bouncing ball through pipes and aim for the highest score!
 
-![Flappy Balls Game](public/flappy-balls.mp4)
+https://github.com/user-attachments/assets/8f52022a-b9cc-437c-919b-4bb312994646
 
 ## 🚀 Features
 
@@ -114,4 +114,3 @@ Created with ❤️ by [Your Name]
 
 ---
 *Happy Gaming! 🎮*
-# flappy-balls
