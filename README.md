@@ -52,7 +52,7 @@ npm install
 npm start
 ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser
+5. Open [http://localhost:3000](http://localhost:urport) in your browser
 
 ## 🎨 Customization
 
